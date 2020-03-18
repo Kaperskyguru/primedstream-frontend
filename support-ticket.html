@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dark-Dashboard</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/atlantis.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-header">
+        <!-- Logo Header -->
+        <div class="logo-header" style="background:rgba(42, 42, 46, 1);">
+          <a href="index.html" class="logo pt-3 pl-3 text-white">
+            <h3 class="">PrimeStream</h3>
+          </a>
+          <button
+            class="navbar-toggler sidenav-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-align-justify"></i>
+            </span>
+          </button>
+          <button class="topbar-toggler more">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+
+      <!-- Sidebar -->
+      <div
+        class="sidebar sidebar-style-2"
+        style="background:  rgba(42, 42, 46, 1) !important"
+      >
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+          <div class="sidebar-content">
+            <ul class="nav nav-primary">
+              <li class="nav-item">
+                <a href="index.html">
+                  <i class="fa fa-video"></i>
+                  <p class="fw-bold" style="font-size:small;">Overview</p>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="user-management.html">
+                  <i class="fa fa-user"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    User Management
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="analytics.html">
+                  <i class="fab fa-think-peaks"></i>
+                  <p class="fw-bold" style="font-size:small;">Analytics</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="push-notification.html">
+                  <i class="far fa-bell"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Push Notification
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="subscription.html">
+                  <i class="fas fa-link"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Subscription
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fas fa-bullseye"></i>
+                  <p class="fw-bold" style="font-size:small;">Support Ticket</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="revenue-report.html">
+                  <i class="fas fa-cog"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Revenue Report
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="help-support.html">
+                  <i class="fas fa-power-off"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Log Out
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <div class="main-panel ">
+        <div class="page-inner pb-0">
+          <div class="container">
+            <div
+              class="row justify"
+              style="  background: rgba(42, 42, 46, 1);
+            padding: 6px 15px;
+            align-items: center;"
+            >
+              <h5>Support Tickets</h5>
+
+              <div class="form-group has-search">
+                <input
+                  type="text"
+                  class="form-control text-white"
+                  style=" background: #595959; border: #595959; padding: .375rem 7.75rem;"
+                  id="text"
+                  placeholder="Search Tickets"
+                />
+                <span class="fa fa-search form-control-feedback"></span>
+              </div>
+              <div class="add-drops d-flex">
+                <div class=" add-newUser">
+                  <p>Sorting:</p>
+                </div>
+                <div class=" add-newUser">
+                  <div class="btn-group">
+                    <button
+                      data-toggle="dropdown"
+                      type="button"
+                      class="btn drop-button dropdown-toggle text-white"
+                      style="padding: 6px 14px;"
+                      aria-expanded="false"
+                    >
+                      New Tickets
+                    </button>
+                    <div
+                      role="menu"
+                      class="dropdown-menu"
+                      x-placement="bottom-start"
+                      style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                    >
+                      <a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      ><a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      ><a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      >
+
+                      <a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-inner">
+          <div class="row row-card-no-pd">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <div
+                      id="basic-datatables_wrapper"
+                      class="dataTables_wrapper container-fluid dt-bootstrap4"
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="table-responsive table-sales">
+                            <table
+                              id="basic-datatables"
+                              class="display table text-white"
+                            >
+                              <thead class="text-center">
+                                <tr>
+                                  <th>Ticket ID</th>
+                                  <th>Created By</th>
+                                  <th>Title</th>
+                                  <th>Date</th>
+                                </tr>
+                              </thead>
+                              <tbody class="text-center ">
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot Connect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    <a
+                                      class="text-white"
+                                      href="reply-ticket.html"
+                                    >
+                                      2rd August 2010</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot Connect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    2rd August 2010
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot COnnect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    2rd August 2010
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot Connect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    2rd August 2010
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot Connect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    2rd August 2010
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>#44562782267</td>
+                                  <td>
+                                    Jennifer1289
+                                  </td>
+                                  <td class="text-warning">
+                                    Cannot Connect My Twitch Account To
+                                    PrimeStream
+                                  </td>
+                                  <td>
+                                    2rd August 2010
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Custom template -->
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Bootstrap Toggle -->
+    <script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+    <!-- Atlantis JS -->
+    <script src="assets/js/atlantis.min.js"></script>
+  </body>
+</html>

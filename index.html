@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dark-Dashboard</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/atlantis.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-header">
+        <!-- Logo Header -->
+        <div class="logo-header" style="background:rgba(42, 42, 46, 1);">
+          <a href="index.html" class="logo pt-3 pl-3 text-white">
+            <h3 class="">PrimeStream</h3>
+          </a>
+          <button
+            class="navbar-toggler sidenav-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-align-justify"></i>
+            </span>
+          </button>
+          <button class="topbar-toggler more">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+
+          <div class="nav-toggle">
+            <button class="btn btn-toggle toggle-sidebar">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+        </div>
+        <!-- End Logo Header -->
+      </div>
+
+      <!-- Sidebar -->
+      <div
+        class="sidebar sidebar-style-2"
+        style="background:  rgba(42, 42, 46, 1) !important"
+      >
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+          <div class="sidebar-content">
+            <ul class="nav nav-primary">
+              <li class="nav-item">
+                <a href="index.html">
+                  <i class="fa fa-video"></i>
+                  <p class="fw-bold" style="font-size:small;">Overview</p>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="user-management.html">
+                  <i class="fa fa-user"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    User Management
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="analytics.html">
+                  <i class="fab fa-think-peaks"></i>
+                  <p class="fw-bold" style="font-size:small;">Analytics</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="push-notification.html">
+                  <i class="far fa-bell"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Push Notification
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="subscription.html">
+                  <i class="fas fa-link"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Subscription
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="support-ticket.html">
+                  <i class="fas fa-bullseye"></i>
+                  <p class="fw-bold" style="font-size:small;">Support Ticket</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="revenue-report.html">
+                  <i class="fas fa-cog"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Revenue Report
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="help-support.html">
+                  <i class="fas fa-power-off"></i>
+                  <p class="fw-bold" style="font-size:small;">
+                    Log Out
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <div class="main-panel ">
+        <div class="page-inner pb-0">
+          <div class="container">
+            <div class="row justify">
+              <h5>Overview</h5>
+              <div class=" add-newUser">
+                <div class="btn-group ">
+                  <button
+                    data-toggle="dropdown"
+                    type="button"
+                    class="btn drop-button dropdown-toggle"
+                    aria-expanded="false"
+                  >
+                    All Time
+                  </button>
+                  <div
+                    role="menu"
+                    class="dropdown-menu"
+                    x-placement="bottom-start"
+                    style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                  >
+                    <a href="#" class="dropdown-item">
+                      June 12,2019-July 12,2019</a
+                    ><a href="#" class="dropdown-item">
+                      June 12,2019-July 12,2019</a
+                    ><a href="#" class="dropdown-item">
+                      June 12,2019-July 12,2019</a
+                    >
+
+                    <a href="#" class="dropdown-item">
+                      June 12,2019-July 12,2019</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container ">
+          <div class="row page-inner text-center ">
+            <div class="col-sm-4">
+              <div class="card text-white bg-success">
+                <div class="card-body ">
+                  <p class="card-text mb-0" style="font-size:10px;">Users</p>
+                  <p class="card-text">
+                    <span class="span-video"><i class="fas fa-video"></i></span>
+                    <span class="mb-0" style="font-size:35px;">124.5m</span>
+                  </p>
+                  <p
+                    class="card-num "
+                    style="font-size:10px;  margin-top:-1rem;"
+                  >
+                    <i class="fa fa-arrow-up" style="color:green;"></i>
+                    100%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <p class="card-text mb-0" style="font-size:10px;">Streams</p>
+                  <p class="card-num">
+                    <span class="span-clock">
+                      <i class="fas fa-clock"></i
+                    ></span>
+                    <span class="mb-0" style="font-size:35px;">300.5b</span>
+                  </p>
+                  <p
+                    class="card-num"
+                    style="font-size:10px;  margin-top:-1rem;"
+                  >
+                    <i class="fa fa-arrow-up" style="color:green;"></i> 100%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-white bg-info">
+                <div class="card-body">
+                  <p class="card-text mb-0" style="font-size:10px;">
+                    Streamed Time
+                  </p>
+                  <p class="card-num">
+                    <span class="span-wave">
+                      <i class="fab fa-galactic-senate"></i
+                    ></span>
+
+                    <span class="mb-0" style="font-size:35px;">234m hrs</span>
+                  </p>
+                  <p
+                    class="card-num"
+                    style="font-size:10px;  margin-top:-1rem;"
+                  >
+                    <i class="fa fa-arrow-up" style="color:green;"></i> 100%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-inner pb-0">
+            <div class="container">
+              <div class="row justify">
+                <h5>Top Users</h5>
+                <div class=" add-newUser">
+                  <div class="btn-group">
+                    <button
+                      data-toggle="dropdown"
+                      type="button"
+                      class="btn drop-button dropdown-toggle"
+                      aria-expanded="false"
+                    >
+                      June 12,2019-July 12,2019
+                    </button>
+                    <div
+                      role="menu"
+                      class="dropdown-menu"
+                      x-placement="bottom-start"
+                      style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                    >
+                      <a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      ><a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      ><a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      >
+
+                      <a href="#" class="dropdown-item">
+                        June 12,2019-July 12,2019</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-inner">
+            <div class="row row-card-no-pd">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <div
+                        id="basic-datatables_wrapper"
+                        class="dataTables_wrapper container-fluid dt-bootstrap4"
+                      >
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="table-responsive table-sales">
+                              <table
+                                id="basic-datatables"
+                                class="display table text-white"
+                              >
+                                <thead class="text-center">
+                                  <tr>
+                                    <th>User</th>
+                                    <th>Channels</th>
+                                    <th>Streams</th>
+                                    <th>Avg Stream Duration</th>
+                                    <th>Views</th>
+                                    <th>Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                  <tr>
+                                    <td>Jessica</td>
+                                    <td>
+                                      7
+                                    </td>
+                                    <td>
+                                      3.5m
+                                    </td>
+                                    <td>
+                                      3.4hrs
+                                    </td>
+                                    <td>
+                                      235m
+                                    </td>
+                                    <td>
+                                      <div class="btn-group">
+                                        <button
+                                          data-toggle="dropdown"
+                                          type="button"
+                                          class="btn view-drop dropdown-toggle"
+                                          aria-expanded="false"
+                                        >
+                                          View User
+                                        </button>
+                                        <div
+                                          role="menu"
+                                          class="dropdown-menu"
+                                          x-placement="bottom-start"
+                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                                        >
+                                          <a href="#" class="dropdown-item"
+                                            >User Information</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Delete User</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Ban User</a
+                                          >
+
+                                          <a href="#" class="dropdown-item"
+                                            >Delete</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Jessica</td>
+                                    <td>
+                                      7
+                                    </td>
+                                    <td>
+                                      3.5m
+                                    </td>
+                                    <td>
+                                      3.4hrs
+                                    </td>
+                                    <td>
+                                      235m
+                                    </td>
+                                    <td>
+                                      <div class="btn-group">
+                                        <button
+                                          data-toggle="dropdown"
+                                          type="button"
+                                          class="btn view-drop dropdown-toggle"
+                                          aria-expanded="false"
+                                        >
+                                          View User
+                                        </button>
+                                        <div
+                                          role="menu"
+                                          class="dropdown-menu"
+                                          x-placement="bottom-start"
+                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                                        >
+                                          <a href="#" class="dropdown-item"
+                                            >User Information</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Delete User</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Ban User</a
+                                          >
+
+                                          <a href="#" class="dropdown-item"
+                                            >Delete</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Jessica</td>
+                                    <td>
+                                      7
+                                    </td>
+                                    <td>
+                                      3.5m
+                                    </td>
+                                    <td>
+                                      3.4hrs
+                                    </td>
+                                    <td>
+                                      235m
+                                    </td>
+                                    <td>
+                                      <div class="btn-group">
+                                        <button
+                                          data-toggle="dropdown"
+                                          type="button"
+                                          class="btn view-drop dropdown-toggle"
+                                          aria-expanded="false"
+                                        >
+                                          View User
+                                        </button>
+                                        <div
+                                          role="menu"
+                                          class="dropdown-menu"
+                                          x-placement="bottom-start"
+                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
+                                        >
+                                          <a href="#" class="dropdown-item"
+                                            >User Information</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Delete User</a
+                                          ><a href="#" class="dropdown-item"
+                                            >Ban User</a
+                                          >
+
+                                          <a href="#" class="dropdown-item"
+                                            >Delete</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Custom template -->
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Bootstrap Toggle -->
+    <script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+    <!-- Atlantis JS -->
+    <script src="assets/js/atlantis.min.js"></script>
+  </body>
+</html>
