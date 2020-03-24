@@ -308,31 +308,14 @@
                                     <td>
                                       <div class="btn-group">
                                         <button
-                                          data-toggle="dropdown"
                                           type="button"
-                                          class="btn view-drop dropdown-toggle"
+                                          class="btn create-button text-white view-drop"
                                           aria-expanded="false"
+                                          data-toggle="modal"
+                                          data-target="#myModal3"
                                         >
                                           View User
                                         </button>
-                                        <div
-                                          role="menu"
-                                          class="dropdown-menu"
-                                          x-placement="bottom-start"
-                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
-                                        >
-                                          <a href="#" class="dropdown-item"
-                                            >User Information</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Delete User</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Ban User</a
-                                          >
-
-                                          <a href="#" class="dropdown-item"
-                                            >Delete</a
-                                          >
-                                        </div>
                                       </div>
                                     </td>
                                   </tr>
@@ -353,31 +336,14 @@
                                     <td>
                                       <div class="btn-group">
                                         <button
-                                          data-toggle="dropdown"
                                           type="button"
-                                          class="btn view-drop dropdown-toggle"
+                                          class="btn create-button text-white view-drop"
                                           aria-expanded="false"
+                                          data-toggle="modal"
+                                          data-target="#myModal3"
                                         >
                                           View User
                                         </button>
-                                        <div
-                                          role="menu"
-                                          class="dropdown-menu"
-                                          x-placement="bottom-start"
-                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
-                                        >
-                                          <a href="#" class="dropdown-item"
-                                            >User Information</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Delete User</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Ban User</a
-                                          >
-
-                                          <a href="#" class="dropdown-item"
-                                            >Delete</a
-                                          >
-                                        </div>
                                       </div>
                                     </td>
                                   </tr>
@@ -398,31 +364,14 @@
                                     <td>
                                       <div class="btn-group">
                                         <button
-                                          data-toggle="dropdown"
                                           type="button"
-                                          class="btn view-drop dropdown-toggle"
+                                          class="btn create-button text-white view-drop"
                                           aria-expanded="false"
+                                          data-toggle="modal"
+                                          data-target="#myModal3"
                                         >
                                           View User
                                         </button>
-                                        <div
-                                          role="menu"
-                                          class="dropdown-menu"
-                                          x-placement="bottom-start"
-                                          style="position: absolute; transform: translate3d(0px, 43px, 0px); top: 0px; left: 0px; will-change: transform;"
-                                        >
-                                          <a href="#" class="dropdown-item"
-                                            >User Information</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Delete User</a
-                                          ><a href="#" class="dropdown-item"
-                                            >Ban User</a
-                                          >
-
-                                          <a href="#" class="dropdown-item"
-                                            >Delete</a
-                                          >
-                                        </div>
                                       </div>
                                     </td>
                                   </tr>
@@ -440,11 +389,150 @@
           </div>
         </div>
       </div>
+      <!-- The Modal -->
+      <div
+        class="modal"
+        style="background: rgba(42, 42, 46, 0.51);"
+        id="myModal3"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content" style="background: rgba(42, 42, 46, 1);">
+            <!-- Modal Header -->
+            <div class="modal-header " style="border:none;">
+              <button
+                type="button"
+                class="close text-white"
+                data-dismiss="modal"
+              >
+                &times;
+              </button>
+            </div>
+            <div class="col-md-12  d-flex justify-content-center pb-3">
+              <div class="avatar avatar-xl">
+                <img
+                  src="http://themekita.com/demo-atlantis-bootstrap/livepreview/examples/assets/img/jm_denis.jpg"
+                  alt="..."
+                  class="avatar-img rounded-circle"
+                />
+              </div>
+            </div>
 
+            <div class="col-md-12 d-flex justify-content-center">
+              <h4>Jessica1238</h4>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+              <p>jessy1289@primesreamID</p>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+              <form>
+                <div class="form-group row">
+                  <label for="text" class="col-sm-6 col-form-label"
+                    >Account Created:</label
+                  >
+                  <div class="col-sm-6">
+                    <p>August 21, 2019</p>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="text" class="col-sm-6 col-form-label"
+                    >Connected Channels</label
+                  >
+                  <div class="col-sm-6">
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="text" class="col-sm-6 col-form-label"
+                    >Subscription Plan</label
+                  >
+                  <div class="col-sm-6">
+                    <p>Yearly ($50) Personal</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div
+              class="modal-footer justify-content-center"
+              style="border:none;"
+            >
+              <button type="button" class="btn btn-primary text-white">
+                Edit Plan
+              </button>
+              <button
+                type="button"
+                class="btn btn-danger text-white"
+                aria-expanded="false"
+                data-toggle="modal"
+                data-target="#myModal2"
+              >
+                Delete
+              </button>
+
+              <!-- The Modal -->
+              <div class="modal " id="myModal2">
+                <div class="modal-dialog modal-sm ">
+                  <div class="modal-content" style="background: red;">
+                    <!-- Modal Header -->
+                    <div class="modal-header " style="border:none;">
+                      <button
+                        type="button"
+                        class="close text-white"
+                        data-dismiss="modal"
+                      >
+                        &times;
+                      </button>
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center">
+                      <h4>Do You Want To Delete This User?</h4>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body modal-sm">
+                      <div
+                        class="col-md-12  d-flex justify-content-center pb-5"
+                      >
+                        <p>
+                          This action cannot be reversed do you want to delete
+                          this account
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div
+                      class="modal-footer justify-content-start"
+                      style="border:none;"
+                    >
+                      <button
+                        type="button"
+                        class="btn text-white"
+                        style="padding: 0.65rem 6.4rem; background:orangered"
+                      >
+                        Proceed!
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-warning text-white ">
+                User Analytics
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- End Custom template -->
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery UI -->

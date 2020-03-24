@@ -13,6 +13,7 @@
     />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+    <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/atlantis.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
@@ -193,69 +194,6 @@
                     >
                       Create Plan
                     </button>
-
-                    <div
-                      class="modal fade"
-                      id="exampleModal"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="exampleModalLabel"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <form>
-                              <div class="form-group">
-                                <label
-                                  for="recipient-name"
-                                  class="col-form-label"
-                                  >Plan Name</label
-                                >
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="recipient-name"
-                                />
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label"
-                                  >Cost Of Plan:</label
-                                >
-                                <textarea
-                                  class="form-control"
-                                  id="message-text"
-                                ></textarea>
-                              </div>
-                              <div class="form-group">
-                                <label for="message-text" class="col-form-label"
-                                  >Billing Type:</label
-                                >
-                                <textarea
-                                  class="form-control"
-                                  id="message-text"
-                                ></textarea>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">
-                              Create Plan
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -308,7 +246,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -334,7 +272,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -359,7 +297,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -384,7 +322,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -409,7 +347,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -434,7 +372,7 @@
                                         class="btn create-button text-white view-drop"
                                         aria-expanded="false"
                                         data-toggle="modal"
-                                        data-target="#myModal1"
+                                        data-target="#myModal4"
                                       >
                                         View Plan
                                       </button>
@@ -533,11 +471,11 @@
 
       <!-- The Modal -->
       <div
-        class="modal "
+        class="modal"
         style="background: rgba(42, 42, 46, 0.51);"
-        id="myModal1"
+        id="myModal4"
       >
-        <div class="modal-dialog ">
+        <div class="modal-dialog">
           <div class="modal-content" style="background: rgba(42, 42, 46, 1);">
             <!-- Modal Header -->
             <div class="modal-header " style="border:none;">
@@ -549,22 +487,23 @@
                 &times;
               </button>
             </div>
+
             <div class="col-md-12 d-flex justify-content-center">
               <h4>View Plan-Business One</h4>
+            </div>
+            <div class="col-md-12  d-flex justify-content-center pb-3">
+              <div class="avatar avatar-xl">
+                <img
+                  src="http://themekita.com/demo-atlantis-bootstrap/livepreview/examples/assets/img/jm_denis.jpg"
+                  alt="..."
+                  class="avatar-img rounded-circle"
+                />
+              </div>
             </div>
 
             <!-- Modal body -->
             <div class="modal-body text-center">
-              <div class="col-md-12  d-flex justify-content-center pb-5">
-                <div class="avatar avatar-lg ">
-                  <img
-                    src="http://themekita.com/demo-atlantis-bootstrap/livepreview/examples/assets/img/jm_denis.jpg"
-                    alt="..."
-                    class="avatar-img rounded-circle"
-                  />
-                </div>
-              </div>
-              <form class="">
+              <form>
                 <div class="form-group row">
                   <label for="text" class="col-sm-6 col-form-label"
                     >Plan Created:</label
@@ -579,7 +518,7 @@
                     >Number Of Users</label
                   >
                   <div class="col-sm-6">
-                    <p>356,789</p>
+                    <p>156,789</p>
                   </div>
                 </div>
 
@@ -608,9 +547,121 @@
               class="modal-footer justify-content-center"
               style="border:none;"
             >
-              <button type="button" class="btn btn-primary text-white">
-                Edit Plan
+              <button
+                type="button"
+                class="btn btn-primary text-white cl"
+                aria-expanded="false"
+                data-toggle="modal"
+                data-target="#myModal5"
+              >
+               " Edit Plan
               </button>
+
+              <!-- Modal body -->
+              <div class="modal " id="myModal5">
+                <div
+                  class="modal-dialog modal-sm "
+                  style="background: rgb(49, 49, 122);"
+                >
+                  <div class="modal-body modal-sm">
+                    <form>
+                      <div class="form-group row">
+                        <label for="text" class="col-sm-3 col-form-label"
+                          ><div class="avatar">
+                            <img
+                              src="http://themekita.com/demo-atlantis-bootstrap/livepreview/examples/assets/img/jm_denis.jpg"
+                              alt="..."
+                              class="avatar-img rounded-circle"
+                            /></div
+                        ></label>
+                        <div class="col-sm-9">
+                          <label for="recipient-name" class="col-form-label"
+                            >User Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control input-dark"
+                            id="recipient-name"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label
+                          for="text"
+                          class="col-sm-3 col-form-label"
+                        ></label>
+                        <div class="col-sm-9">
+                          <label for="recipient-name" class="col-form-label"
+                            >Email Address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control input-dark"
+                            id="email"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label"
+                          >Conected Channels:</label
+                        >
+                        <div class="d-flex">
+                          <input
+                            type="text"
+                            class="form-control input-dark col-sm-5"
+                            style="border-radius:30px;"
+                            id="name"
+                            placeholder="Facebook"
+                          />
+                          <input
+                            type="text"
+                            class="form-control input-dark col-sm-5 ml-3"
+                            style="border-radius:30px;"
+                            id="name"
+                            placeholder="Twitter"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <label
+                          for="text"
+                          class="col-sm-5 col-form-label"
+                          style="font-size:0.7em"
+                          >Subscription Plan:</label
+                        >
+                        <div class="col-sm-7">
+                          <select
+                            class="form-control input-dark text-white "
+                            id="exampleFormControlSelect1"
+                          >
+                            <option>Free Plan</option>
+                            <option>Admin</option>
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Others</option>
+                          </select>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div
+                    class="modal-footer justify-content-start"
+                    style="border:none;"
+                  >
+                    <button
+                      type="button"
+                      class="btn text-white"
+                      style="padding: 0.65rem 5.4rem; background:dodgerblue"
+                    >
+                      Save Changes
+                    </button>
+                  </div>
+                </div>
+              </div>
               <button
                 type="button"
                 class="btn btn-danger text-white"
@@ -668,7 +719,7 @@
                 </div>
               </div>
               <button type="button" class="btn btn-warning text-white ">
-                User Analytics
+                View Users
               </button>
             </div>
           </div>
@@ -678,6 +729,7 @@
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery UI -->
@@ -689,8 +741,17 @@
 
     <!-- Bootstrap Toggle -->
     <script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Atlantis JS -->
     <script src="assets/js/atlantis.min.js"></script>
+
+    <!-- <script>
+      const hh = document.querySelector(".cl");
+      hh.addEventListener("click", function() {
+        // document.getElementById("myModal4").style.display = "none";
+      });
+    </script> -->
   </body>
 </html>

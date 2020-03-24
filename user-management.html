@@ -182,13 +182,14 @@
                     </div>
                   </div>
                 </div>
-
                 <div class=" add-newUser ">
                   <div class="btn-group ">
                     <button
                       type="button"
                       class="btn create-button text-white"
                       aria-expanded="false"
+                      data-toggle="modal"
+                      data-target="#myModal4"
                     >
                       Create Plan
                     </button>
@@ -470,6 +471,113 @@
           </div>
         </div>
       </div>
+
+      <!-- The Modal -->
+      <div
+        class="modal "
+        style="background: rgba(42, 42, 46, 0.51);"
+        id="myModal4"
+      >
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content" style="background: rgba(42, 42, 46, 1);">
+            <!-- Modal Header -->
+            <div class="modal-header " style="border:none;">
+              <button
+                type="button"
+                class="close text-white"
+                data-dismiss="modal"
+              >
+                &times;
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body modal-sm">
+              <form>
+                <div class="form-group row">
+                  <label for="text" class="col-sm-3 col-form-label"
+                    ><div class="avatar">
+                      <img
+                        src="http://themekita.com/demo-atlantis-bootstrap/livepreview/examples/assets/img/jm_denis.jpg"
+                        alt="..."
+                        class="avatar-img rounded-circle"
+                      /></div
+                  ></label>
+                  <div class="col-sm-9">
+                    <label for="recipient-name" class="col-form-label"
+                      >User Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control input-dark"
+                      id="recipient-name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="text" class="col-sm-3 col-form-label"></label>
+                  <div class="col-sm-9">
+                    <label for="recipient-name" class="col-form-label"
+                      >Email Address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control input-dark"
+                      id="email"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group ">
+                  <label for="recipient-name" class="col-form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control input-dark"
+                    id="password"
+                  />
+                </div>
+
+                <div class="form-group row">
+                  <label
+                    for="text"
+                    class="col-sm-5 col-form-label"
+                    style="font-size:0.7em"
+                    >Subscription Plan:</label
+                  >
+                  <div class="col-sm-7">
+                    <select
+                      class="form-control input-dark text-white "
+                      id="exampleFormControlSelect1"
+                    >
+                      <option>Free Plan</option>
+                      <option>Admin</option>
+                      <option>Student</option>
+                      <option>Teacher</option>
+                      <option>Others</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div
+              class="modal-footer justify-content-start"
+              style="border:none;"
+            >
+              <button
+                type="button"
+                class="btn text-white"
+                style="padding: 0.65rem 6.4rem; background:orangered"
+              >
+                Create User
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- The Modal -->
       <div
         class="modal"
@@ -613,6 +721,7 @@
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery UI -->
