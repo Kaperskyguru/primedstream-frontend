@@ -2,6 +2,7 @@
     &,
     &:link,
     &:visited {
+        padding: 1rem 2.8rem;
         font-size: 1.4rem;
         text-decoration: none;
     }
@@ -15,6 +16,7 @@
         &:hover {
             background-color: $color-red;
             color: $color-white;
+            border: .15rem solid $color-red;
             text-decoration: none;
         }
     }

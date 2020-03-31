@@ -1,7 +1,7 @@
 .header {
     height: 100vh;
     padding-top: 4rem;
-    background-image: linear-gradient(to left, rgba($color-black, .7), rgba($color-black, .7)), url('../images/banner.png');
+    background-image: linear-gradient(to left, rgba($color-black, .95), rgba($color-black, .95)), url('../images/banner.png');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -12,16 +12,20 @@
 
 .heading-main {
     margin-bottom: 4.5rem;
-    &--header {
+    padding: 0rem;
+    &__header {
         display: block;
-        font-size: 7rem;
-        line-height: 9rem;
+        color: $color-white;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 6rem;
         text-transform: capitalize;
     }
-    &--sub {
+    &__sub {
         display: block;
-        font-size: 2rem;
+        color: rgba($color-white, .7);
+        font-size: 1.3rem;
         font-weight: 500;
-        line-height: 3rem;
+        line-height: 2.5rem;
     }
 }
