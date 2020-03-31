@@ -1,0 +1,39 @@
+.navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    ;
+    height: auto;
+    &-brand {
+        width: 13rem;
+        font-family: 'OpenSans-ExtraBold';
+        font-size: 1.4rem;
+        letter-spacing: 0rem;
+        line-height: 0rem;
+        text-transform: uppercase;
+        .brand-logo {
+            width: 8rem;
+        }
+    }
+    .collapse {
+        margin-left: 1.7rem;
+        .navbar-nav {
+            .nav-item {
+                &:not(:last-child) {
+                    margin-right: 1.5rem;
+                }
+                .nav-link {
+                    font-family: 'MavenPro-Bold';
+                    font-size: 1.4rem;
+                    letter-spacing: 0rem;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                }
+                &.active .nav-link {
+                    color: $color-yellow !important;
+                }
+            }
+        }
+    }
+}

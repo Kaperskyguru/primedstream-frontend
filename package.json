@@ -1,0 +1,37 @@
+{
+  "name": "primestream",
+  "version": "1.0.0",
+  "description": "a web app for streaming",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaperskyguru/primedstream-frontend.git"
+  },
+  "author": "frank john",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaperskyguru/primedstream-frontend/issues"
+  },
+  "homepage": "https://github.com/Kaperskyguru/primedstream-frontend#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "css-loader": "^3.4.2",
+    "exports-loader": "^0.7.0",
+    "fibers": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.1.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
