@@ -2,34 +2,29 @@
     &,
     &:link,
     &:visited {
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding: 1rem 2rem !important;
-        transition: all .5s ease;
-        border: none;
+        font-size: 1.4rem;
         text-decoration: none;
     }
     &:focus,
     &:hover {
         text-decoration: none;
     }
-    &__yellow {
+    &__red {
         &,
         &:focus,
         &:hover {
-            background-color: $color-yellow;
-            color: $color-black;
+            background-color: $color-red;
+            color: $color-white;
             text-decoration: none;
         }
     }
-    &__bordered--yellow {
+    &__bordered--white {
         &,
         &:focus,
         &:hover {
             background-color: transparent;
-            color: $color-black;
-            border: .1rem solid $color-yellow;
-            padding: 1rem 2rem !important;
+            color: $color-white;
+            border: .15rem solid $color-white;
             text-decoration: none;
         }
     }
