@@ -2,3 +2,15 @@
 // }
 // .text-bg {
 // }
+.primary-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p {
+    color: rgba($color-white, .7);
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}

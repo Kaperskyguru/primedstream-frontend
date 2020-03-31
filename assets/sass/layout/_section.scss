@@ -1,5 +1,16 @@
-section,
 .section {
-    padding-left: 7rem !important;
-    padding-right: 7rem !important;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    &__img-container {
+        height: 80vh;
+        padding: 0rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        & img {
+            width: 100%;
+        }
+    }
 }

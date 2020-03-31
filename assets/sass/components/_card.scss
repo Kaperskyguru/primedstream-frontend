@@ -1,0 +1,18 @@
+.card {
+    &-1 {
+        border: .1rem solid $color-white;
+        border-radius: .5rem;
+        padding: 2rem;
+        &__icon {
+            font-size: 4rem;
+            color: rgba($color-white, .7);
+        }
+        &__text {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 3rem;
+            color: rgba($color-white, .7);
+            text-transform: capitalize;
+        }
+    }
+}
