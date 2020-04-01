@@ -8,7 +8,14 @@
     text-transform: capitalize;
 }
 
-p {
+.secondary-heading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p,
+.p {
     color: rgba($color-white, .7);
     font-size: 1.3rem;
     font-weight: 500;

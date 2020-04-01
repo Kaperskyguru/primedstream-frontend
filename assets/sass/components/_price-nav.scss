@@ -1,0 +1,19 @@
+.price-nav {
+    &__link {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: $color-white;
+        text-transform: capitalize;
+        border: .13rem solid $color-red;
+        padding: 1.5rem 7rem;
+        background-color: transparent;
+        transition: all .45s ease;
+        &:focus,
+        &:hover,
+        &.active {
+            color: $color-white;
+            border: .13rem solid $color-red;
+            background-color: $color-red;
+        }
+    }
+}

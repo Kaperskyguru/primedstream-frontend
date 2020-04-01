@@ -1,0 +1,31 @@
+.pricing {
+    &__card {
+        &-header {
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: $color-white;
+            text-transform: capitalize;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0rem;
+            &.red {
+                background-color: $color-red;
+            }
+            &.blue {
+                background-color: $color-blue-1;
+            }
+            &.green {
+                background-color: $color-green;
+            }
+        }
+        &-body {
+            padding-top: 8rem;
+            padding-bottom: 4.5rem;
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+        &-price {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+}

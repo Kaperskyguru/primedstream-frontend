@@ -11,6 +11,10 @@ a {
     color: $color-white !important;
 }
 
+.color-white-shade-1 {
+    color: rgba($color-white, .7);
+}
+
 .color-black {
     color: $color-black !important;
 }
@@ -37,6 +41,10 @@ a {
 
 .color-red {
     color: $color-red !important;
+}
+
+.color-green {
+    color: $color-green !important;
 }
 
 .color-blue-2 {
@@ -79,6 +87,10 @@ a {
     background-color: $color-red !important;
 }
 
+.bg-green {
+    background-color: $color-green !important;
+}
+
 .bg-transparent {
     background-color: transparent !important;
 }
@@ -93,6 +105,30 @@ a {
 
 .b-0 {
     border: none !important;
+}
+
+.b-rad {
+    border-radius: 1rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mt-7 {
+    margin-top: 7rem;
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.mt-9 {
+    margin-top: 9rem;
+}
+
+.mt-10 {
+    margin-top: 10rem;
 }
 
 .text-bold {
