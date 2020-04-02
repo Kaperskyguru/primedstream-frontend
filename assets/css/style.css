@@ -68,7 +68,7 @@ p,
   color: rgba(255, 255, 255, 0.7);
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: 3.5rem; }
+  line-height: 3rem; }
 
 a:link, a:hover, a:focus, a:active {
   text-decoration: none; }
@@ -93,6 +93,9 @@ a:link, a:hover, a:focus, a:active {
 
 .color-grey-2 {
   color: #292929 !important; }
+
+.color-grey-3 {
+  color: #141414 !important; }
 
 .color-blue-1 {
   color: #12A1ED !important; }
@@ -126,6 +129,9 @@ a:link, a:hover, a:focus, a:active {
 
 .bg-grey-2 {
   background-color: #292929 !important; }
+
+.bg-grey-3 {
+  background-color: #141414 !important; }
 
 .bg-blue-1 {
   background-color: #12A1ED !important; }
@@ -184,6 +190,14 @@ a:link, a:hover, a:focus, a:active {
   background-color: #F05132;
   color: #ffffff;
   border: 0.15rem solid #F05132;
+  text-transform: capitalize;
+  text-decoration: none; }
+
+.btn__red--square, .btn__red--square:focus, .btn__red--square:hover {
+  background-color: #F05132;
+  color: #ffffff;
+  border: 0.15rem solid #F05132;
+  border-radius: unset;
   text-transform: capitalize;
   text-decoration: none; }
 
@@ -251,6 +265,15 @@ a:link, a:hover, a:focus, a:active {
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.7);
     text-transform: capitalize; }
+
+.search__form {
+  position: relative; }
+  .search__form-input {
+    width: 63%;
+    font-size: 1.4rem;
+    border: none;
+    margin: 0rem;
+    padding: 1.12rem 2.8rem; }
 
 .navbar-toggler {
   font-size: 2.5rem;
@@ -381,11 +404,20 @@ a:link, a:hover, a:focus, a:active {
       width: 100%; }
 
 .footer {
-  padding-top: 3.9rem;
-  padding-bottom: 3.9rem; }
+  padding: 7rem 4rem; }
 
-.footer__logo-box {
-  margin-bottom: 2rem; }
+.footer__social-link {
+  display: flex;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  border-radius: .4rem; }
+  .footer__social-link ion-icon {
+    font-size: 2.2rem;
+    color: #ffffff; }
 
-.footer__logo-text {
-  line-height: 0rem; }
+.footer__link, .footer__link:visited {
+  color: #ffffff;
+  text-transform: capitalize; }
+
+.footer__link:focus, .footer__link:hover, .footer__link:active {
+  color: #F05132; }

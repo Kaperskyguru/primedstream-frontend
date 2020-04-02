@@ -1,0 +1,10 @@
+.search__form {
+    position: relative;
+    &-input {
+        width: 63%;
+        font-size: 1.4rem;
+        border: none;
+        margin: 0rem;
+        padding: 1.12rem 2.8rem;
+    }
+}

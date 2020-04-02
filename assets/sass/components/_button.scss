@@ -21,6 +21,18 @@
             text-decoration: none;
         }
     }
+    &__red--square {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-red;
+            color: $color-white;
+            border: .15rem solid $color-red;
+            border-radius: unset;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
     &__bordered--white {
         &,
         &:focus,
