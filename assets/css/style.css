@@ -169,6 +169,9 @@ a:link, a:hover, a:focus, a:active {
 .b-grey-2 {
   border: 0.12rem solid #292929; }
 
+.bd-dash {
+  border-bottom: 0.1rem dashed #292929; }
+
 .b-rad {
   border-radius: 1rem; }
 
@@ -302,12 +305,13 @@ a:link, a:hover, a:focus, a:active {
 .form {
   position: relative; }
   .form__page-left {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/banner.png");
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/banner.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; }
   .form__page-right {
-    padding: 6.9rem; }
+    padding: 6.9rem;
+    overflow: hidden; }
   .form__page-left, .form__page-right {
     height: 100vh; }
   .form__main-form {
@@ -341,6 +345,27 @@ a:link, a:hover, a:focus, a:active {
     font-size: 1.4rem; }
   .form__select {
     padding: 1rem 1.5rem; }
+  .form__dropdown {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.4rem; }
+    .form__dropdown ion-icon {
+      position: absolute;
+      top: 50% !important;
+      left: 90% !important;
+      transform: translateY(-50%);
+      display: block;
+      font-size: 1rem !important;
+      text-align: right; }
+    .form__dropdown:visited ion-icon {
+      transform: rotateX(90deg); }
+    .form__dropdown-item {
+      font-size: inherit;
+      z-index: 0;
+      position: relative;
+      color: #ffffff; }
   .form__btn {
     display: block;
     width: 100%;
@@ -427,9 +452,9 @@ a:link, a:hover, a:focus, a:active {
 .header {
   height: 100vh;
   padding-top: 4rem;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/banner.png");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center center;
   background-size: cover; }
   .header__text-box {
     color: #ffffff; }

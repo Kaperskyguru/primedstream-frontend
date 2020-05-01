@@ -12,13 +12,14 @@
 .form {
     position: relative;
     &__page-left {
-        background-image: linear-gradient(to left, rgba($color-black, .9), rgba($color-black, .9)), url('../images/banner.png');
+        background-image: linear-gradient(to left, rgba($color-black, .8), rgba($color-black, .8)), url('../images/banner.jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
     &__page-right {
         padding: 6.9rem;
+        overflow: hidden;
     }
     &__page-left,
     &__page-right {
@@ -70,6 +71,31 @@
     }
     &__select {
         padding: 1rem 1.5rem;
+    }
+    &__dropdown {
+        position: relative;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.4rem;
+        & ion-icon {
+            position: absolute;
+            top: 50% !important;
+            left: 90% !important;
+            transform: translateY(-50%);
+            display: block;
+            font-size: 1rem !important;
+            text-align: right;
+        }
+        &:visited ion-icon {
+            transform: rotateX(90deg);
+        }
+        &-item {
+            font-size: inherit;
+            z-index: 0;
+            position: relative;
+            color: $color-white;
+        }
     }
     &__btn {
         display: block;
